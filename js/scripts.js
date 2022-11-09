@@ -38,7 +38,7 @@ function validateEmail(inputEmail, inputError){
         hideError(inputEmail, inputError);
     }else{
         // mostramos error
-        showError(inputEmail, inputError, 'Looks be a valid a email');
+        showError(inputEmail, inputError, 'Looks like this is not a email');
         
     };
 }
